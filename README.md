@@ -1,6 +1,8 @@
 # Clawdmeter
 
-A small ESP32 dashboard to keep an eye on Claude Code usage.
+A small ESP32 dashboard to keep an eye on Claude Code usage. Based on https://github.com/HermannBjorgvin/Clawdmeter
+
+I made a few fixes to get it running on my lapto and added a new screen that counts dwn when you hit your usage limit, instead of the previous "no data" screen. 
 
 It runs on a [Waveshare ESP32-S3-Touch-AMOLED-2.16](https://www.waveshare.com/esp32-s3-touch-amoled-2.16.htm?&aff_id=149786) as well as a few other alternative boards and pairs over Bluetooth, the splash screen plays pixel-art Clawd animations that get
 busier when your usage rate climbs. The two side buttons send Space and
