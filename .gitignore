@@ -1,0 +1,29 @@
+# PlatformIO build artifacts
+firmware/.pio/
+firmware/.vscode/
+
+# OS
+.DS_Store
+
+# Claude Code
+.claude/
+
+# Node tooling deps (npm install --no-save)
+tools/node_modules/
+tools/package-lock.json
+
+# Mac daemon venv
+daemon/.venv/
+
+# Windows / project-root venv
+/.venv/
+
+# Pytest cache
+.pytest_cache/
+
+# Python bytecode cache
+__pycache__/
+*.pyc
+
+# get-platformio.py downloaded installer (regenerate with curl if needed)
+/get-platformio.py
